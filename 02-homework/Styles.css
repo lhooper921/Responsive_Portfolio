@@ -1,0 +1,19 @@
+
+
+.col-md-8 {
+    float:left;
+    background-color:rgb(243, 239, 239);
+    padding: 5em;
+    margin: 5em;
+}
+
+p {
+padding-top: 2em;
+text-align: center;
+}
+h1 {
+    padding-bottom: .25em;
+}
+.container {
+    background-color: rgb(214, 200, 162);
+}
