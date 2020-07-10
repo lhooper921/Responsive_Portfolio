@@ -1,23 +1,106 @@
-
-
-.col-md-8{
-    background-color:rgb(243, 239, 239);
-   padding: 2em;
-    margin: 5em;
-}
-#Portrait {
-    float: left;
-    margin: 2rem;
+body {
+    background-image: url("Images/Fabric.jpg");
 }
 
-p {
-padding-top: 2em;
-text-align: center;
+.content {
+    max-width: 980px;
+    margin: auto;
+    
+  }
+  
+.footer {
+    background-color:white;
+   
 }
+
+nav {
+    margin-bottom: 20px;
+    padding: 0px;
+
+}
+ .navbar{
+     padding: 8px;
+ }
+
+.bg-light {
+    background-color: white;
+}
+
 h1 {
-    text-align: center;
-    padding:.5rem;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
-.container {
-    background-color: rgb(214, 200, 162);
+
+h3 {
+        color:rgb(74,170,165);
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+    }
+
+ .container-fluid {  
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 50px;
 }
+.left {
+    float:left;
+    padding: 0 10px 0 0;
+}
+
+
+.text-block {
+        position: absolute;
+        left: 20px;
+        background-color:rgb(74,170,165);
+        color: white;
+        padding: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
