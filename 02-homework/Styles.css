@@ -10,16 +10,21 @@ body {
   
 .footer {
     background-color:white;
-   
+    text-align: center;
+   padding: 20px;
+   max-width: 980px;
+   margin: auto;
 }
 
 nav {
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 5px;
+    
 
 }
  .navbar{
-     padding: 8px;
+     padding: 20px;
+    
  }
 
 .bg-light {
@@ -31,6 +36,16 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
 }
+.text-block {
+        position: absolute;
+        left: 50px;
+        background-color:rgb(74,170,165);
+        color: white;
+        padding: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        text-align: center;
+    }
 
 h3 {
         color:rgb(74,170,165);
@@ -38,10 +53,11 @@ h3 {
         font-weight: 900;
     }
 
- .container-fluid {  
+ section {  
     border: 1px solid lightgray;
     background-color: white;
     margin: 50px;
+    float:left;
 }
 .left {
     float:left;
@@ -49,18 +65,9 @@ h3 {
 }
 
 
-.text-block {
-        position: absolute;
-        left: 20px;
-        background-color:rgb(74,170,165);
-        color: white;
-        padding: 1px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 900;
-    }
 
 
-}
+
 
 
 

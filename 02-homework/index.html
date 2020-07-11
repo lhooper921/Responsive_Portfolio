@@ -28,17 +28,18 @@
   <div class="content">
     
   <!-- Header -->
- 
-<div class="container">
+ <div class="row">
+<div class="container-fluid">
 
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-light ">
 
      
 
       <!-- Navbar Links -->
-      <ul class="navbar-nav ml-auto">
+      <div class="container-fluid col-sm-8">
+      <ul class="navbar-nav ml-auto" >
         <li class="nav-item active">
           <a class="nav-link" href="#">Home |<span class="sr-only">(current)</span></a>
         </li>
@@ -49,10 +50,15 @@
           <a class="nav-link" href="#">Contact </a>
         </li>
       </ul>
-      <div class="text-block">
+    </div>
+    
+      <div class="text-block col-sm-4">
         <h1>Lauren Hooper</h1>
       </div>
+    
     </nav>
+
+  </div>
   </div>
   
 
@@ -77,7 +83,7 @@
         <h3 id="About-me">About Me</h3> 
         <hr class="my-4">
         <div class="image" id="portrait">
-          <img class="left" src="Images/Lauren Wedding (2).jpg" width="200px" height="200px" aLT= "Portrait of Lauren Hooper">
+          <img class="left img-fluid" src="Images/Lauren Wedding (2).jpg" width="200px" height="200px" aLT= "Portrait of Lauren Hooper">
         </div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id iste, labore reprehenderit in hic maiores, quam
           alias, amet tenetur eligendi atque reiciendis similique dicta! Deleniti reprehenderit repellat culpa magnam
@@ -105,20 +111,21 @@
 
 
 <!-- Content centering -->
-
-
- 
 </div>
+
+
 <!-- Sticky Footer -->
-<footer class="footer">
-<div class="card text-center">
-  <div class="card-body">
-    <p class="card-text">&copy; 2020 Lauren Hooper</p> 
-  </div>
-  </div>
+<div class="row">
+  <div class="container-fluid">
+<div class="col-12">
+<footer class="footer fixed-bottom">
+
+    <p>&copy; 2020 Lauren Hooper <img src="Images/favicon-32x32.png"> </p> 
+
 </footer>
-
-
+</div>
+</div>
+</div>
 
 </body>
 
