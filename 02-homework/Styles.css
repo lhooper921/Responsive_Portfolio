@@ -9,42 +9,44 @@ body {
   }
   
 .footer {
-    background-color:white;
+    background-color:#666;
     text-align: center;
    padding: 20px;
    max-width: 980px;
    margin: auto;
+   color:white;
+   border-top: 5px solid rgb(74,170,165);
 }
+
 
 nav {
     margin-bottom: 20px;
-    padding: 5px;
-    
-
+    border-bottom: 1px solid #666;
+    width:100%;
 }
- .navbar{
-     padding: 20px;
-    
- }
+
+
 
 .bg-light {
     background-color: white;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
+    color:white;
 }
-.text-block {
-        position: absolute;
-        left: 50px;
+#name {
+      
         background-color:rgb(74,170,165);
         color: white;
-        padding: 1px;
+       
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 900;
         text-align: center;
+        width:100%;
+      
     }
 
 h3 {
@@ -57,57 +59,69 @@ h3 {
     border: 1px solid lightgray;
     background-color: white;
     margin: 50px;
-    float:left;
-}
+    }
+
 .left {
     float:left;
     padding: 0 10px 0 0;
+    }
+
+
 }
+/* Small Size screens */
+@media screen and (max-width: 768px)  {
+    nav {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #666;
+       
+        
+    }
+     
+    .navbar-nav {
+        margin-left: 0;
+        width:75%;
+        justify-content: right;
+    } 
+    
+    
+    .bg-light {
+        background-color: white;
+    }
+    
+    h1 {
+        font-size: 36px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        color:white;
+    }
+    #name {
+           position:relative;
+            background-color:rgb(74,170,165);
+            color: white;
+           
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 900;
+            text-align: center;
+           width:25%;
+          
+        }
+        h3 {
+            color:rgb(74,170,165);
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+        }
+    
+     section {  
+        border: 1px solid lightgray;
+        background-color: white;
+        margin: 50px;
+        }
+    
+    .left {
+        float:left;
+        padding: 0 10px 0 0;
+        }
+ }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
+ 
