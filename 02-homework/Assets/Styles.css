@@ -1,0 +1,71 @@
+body {
+    background-image: url("02-homework\Assets\Images\fabric.jpg");
+}
+
+.content {
+    max-width: 980px;
+    margin: auto;
+    
+  }
+  
+.footer {
+    background-color:#666;
+    text-align: center;
+   padding: 20px;
+   max-width: 980px;
+   margin: auto;
+   color:white;
+   border-top: 5px solid rgb(74,170,165);
+}
+
+
+nav {
+    margin-bottom: 20px;
+  
+}  
+
+header {
+    background-color: ghostwhite;
+}
+
+
+.bg-light {
+    background-color: ghostwhite;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color:white;
+}
+#name {
+      
+        background-color:rgb(74,170,165);
+        color: white;      
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 900;
+        text-align: center;
+        }
+
+h3 {
+        color:rgb(74,170,165);
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+    }
+
+ section {  
+    border: 1px solid lightgray;
+    background-color: ghostwhite;
+    margin: 50px;
+    }
+
+.left {
+    float:left;
+    padding: 0 10px 0 0;
+    }
+
+
+
+
+ 
