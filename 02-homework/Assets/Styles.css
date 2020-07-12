@@ -1,5 +1,5 @@
 body {
-    background-image: url("02-homework\Assets\Images\fabric.jpg");
+    background-image: url("Images/fabric.jpg");
 }
 
 .content {
@@ -19,13 +19,16 @@ body {
 }
 
 
-nav {
-    margin-bottom: 20px;
   
-}  
-
+  
+ul {
+    padding-top: 10px;
+  
+}
 header {
     background-color: ghostwhite;
+    margin: auto;
+    width:100%;
 }
 
 
@@ -39,33 +42,58 @@ h1 {
     font-weight: 900;
     color:white;
 }
-#name {
+#namebox {
       
         background-color:rgb(74,170,165);
         color: white;      
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 900;
         text-align: center;
+        height: 100%;
+        padding: .7em ;
         }
 
 h3 {
         color:rgb(74,170,165);
         font-family: Georgia, Times, 'Times New Roman', serif;
         font-weight: 900;
+        padding-left:20px;
+        padding-top: 20px;
     }
 
  section {  
     border: 1px solid lightgray;
     background-color: ghostwhite;
-    margin: 50px;
+    margin: 30px; 
     }
 
 .left {
     float:left;
     padding: 0 10px 0 0;
     }
+.btn-primary {
+    background-color:rgb(74,170,165) ;
+    margin-bottom: 20px;
+    
+}
+   
 
 
-
-
+    /*---Media Queries --*/
+@media (min-width:641px) {
+    #namebox {
+        width: 75%;
+        height: 100%;
+    }
+  ul {
+      padding-top:20px;
+      padding-left:30px
+  }
+  section {  
+   width: 641px
+    }
+  }
  
+  @media (min-width:769 px) {
+
+  }
