@@ -17,32 +17,33 @@
 <body>
   <!-- Content Centering -->
   <div class="content">
-  <header>
-    <div class="row" id="header-row">
-      <div class="col-xs-12 col-sm-6 col-md-4" id="name">
-        <div class="container" id="namebox">
-        <h1>Lauren Hooper</h1>
+    <header>
+      <div class="clearfix">
+      <div class="row" id="header-row">
+        <div class="col-xs-12 col-sm-6 col-md-4" id="name">
+          <div class="container float-left ml-sm-5" id="namebox">
+          <h1>Lauren Hooper</h1>
+        </div>
       </div>
-    </div>
-      <!-- Nav Bar -->
-      <div class=" col-xs-12 col-sm-6 col-md-8" id="navigation">
-        <nav class="navbar navbar-expand navbar-light bg-light ">
-          <div class="navbar-collapse collapse ">
-            <ul class="navbar-nav m-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Home |</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Portfolio |<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact </a>
-              </li>
-            </ul>
-          </div>   
-      </nav>
-    </div>
-</header>
+        <!-- Nav Bar -->
+        <div class=" col-xs-12 col-sm-6 col-md-8" id="navigation">
+          <nav class="navbar navbar-expand navbar-light bg-light float-sm-right">
+            <div class="navbar-collapse collapse ">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home |<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact </a>
+                </li>
+              </ul>
+            </div>   
+        </nav>
+      </div></div>
+  </header>
 
 
 
@@ -50,20 +51,59 @@
     <!-- End Header -->
 
     <!-- Main Section -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="Portfolio">
       <div class="row">
         <section class="col-sm-11 col-md-8">
-          <h3 id="Portfolio">Portfolio</h3>
+          <h3>Portfolio</h3>
           <hr class="my-4">
-          <img src="assets/Images/portfolio-1.jpg" height="200px" width="200px">
-          <img src="assets/Images/portfolio-2.jpg" height="200px" width="200px">
-          <img src="assets/Images/portfolio-3.jpg" height="200px" width="200px">
-          <img src="assets/Images/portfolio-4.jpg" height="200px" width="200px">
-          <img src="assets/Images/portfolio-5.jpg" height="200px" width="200px">
+          <!-- Need to get cards to divide into two columns at larger sizes -->
+          <div class="row">
 
-        </section>
+            <div class="col-sm-4 mx-auto">
+            
+              <div class="card " style="width: 15rem;">
+                <img src="assets/Images/portfolio-1.jpg" class="card-img-top" alt="Colorful Tile">
+                <div class="card-img-overlay">
+                  <p class="card-text">Word Guess</p>
+                </div>
+              </div>
+            
+
+              <div class="card" style="width: 15rem;">
+                <img src="assets/Images/portfolio-2.jpg" class="card-img-top" alt="Colorful Tile">
+                <div class="card-img-overlay">
+                  <p class="card-text">Word Guess</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem;">
+                <img src="assets/Images/portfolio-3.jpg" class="card-img-top" alt="Colorful Tile">
+                <div class="card-img-overlay">
+                  <p class="card-text">Word Guess</p>
+                </div>
+              </div>
+            </div>
+              <div class="col-sm-4 mx-auto">
+              <div class="card" style="width: 15rem;">
+                <img src="assets/Images/portfolio-4.jpg" class="card-img-top" alt="Colorful Tile">
+                <div class="card-img-overlay">
+                  <p class="card-text">Word Guess</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 15rem;">
+                <img src="assets/Images/portfolio-5.jpg" class="card-img-top" alt="Colorful Tile">
+                <div class="card-img-overlay">
+                  <p class="card-text">Word Guess</p>
+                </div>
+              </div>
+
+
+            </div>
+         </section>
       </div>
     </div>
+   
 
 
 
@@ -78,11 +118,11 @@
 
 
 
-    <!-- Sticky Footer -->
+    <!--  Footer -->
     <div class="row">
       <div class="container-fluid">
         <div class="col-12">
-          <footer class="footer fixed-bottom">
+          <footer class="footer">
 
             <p>&copy; 2020 Lauren Hooper <img src="assets/Images/favicon-32x32.png"> </p>
 
@@ -90,7 +130,7 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
 </body>
 
 
