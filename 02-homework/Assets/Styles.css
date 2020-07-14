@@ -1,113 +1,99 @@
 body {
     background-image: url("Images/fabric.jpg");
-}
-
+    }
 .content {
     max-width: 980px;
     margin: auto;
-    
-    
-  }
+     }
   
 .footer {
     background-color:#666;
     text-align: center;
-   padding: 20px;
-   max-width: 980px;
-   margin: auto;
-   color:white;
-   border-top: 5px solid rgb(74,170,165);
-   
-}
-
-
-  
-  
+    padding: 20px;
+    max-width: 980px;
+    margin: auto;
+    color:white;
+    border-top: 5px solid rgb(74,170,165);
+   }
+  /* NavBar */
 ul {
     padding-top: 10px;
-  
-}
+    }
 .border-right  {
     padding-left: 15px;
-}
+    }
 header {
     background-color: ghostwhite;
     margin: auto;
     width:100%;
-}
-
-
+    }
 .bg-light {
     background-color: ghostwhite;
-}
+    }
 
+/* Headings */
 h1 {
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     color:white;
-}
-#namebox {
-      
-        background-color:rgb(74,170,165);
-        color: white;      
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 900;
-        text-align: center;
-        height: 100%;
-        padding: .7em ;
-        }
-
-h3 {
-        color:rgb(74,170,165);
-        font-family: Georgia, Times, 'Times New Roman', serif;
-        font-weight: 900;
-        padding-left:20px;
-        padding-top: 20px;
     }
-
+h3 {
+    color:rgb(74,170,165);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    padding-left:20px;
+    padding-top: 20px;
+    }
+#namebox {
+    background-color:rgb(74,170,165);
+    color: white;      
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    height: 100%;
+    padding: .7em ;
+    }  
+/* Sections */       
 #aboutme {
     margin: 40px;
-
-}
+    }
 #connect {
     margin:auto;
-}
+    padding: 20px;
+    }
 #portfolio{
     margin: 30px;
-}
-
-  
-
+    }
+  /* Float */
 .left {
     float:left;
     padding: 0 10px 0 0;
     }
+.right{
+    float:right;
+}
 .btn-primary {
     background-color:rgb(74,170,165) ;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px    
+    }
+#connect, .btn{
+    margin-left: 30px;
 }
 /* Portfolio Image Overlays */
 .card {
-    margin: auto;
+    margin: 0 auto;
     border: 15px solid white;
-}
-
-     
-  
-  .card-text {
+      }
+.card-text {
       font-family:Georgia, Times, 'Times New Roman', serif;
       color: white;
       text-align: center;
-      font-size: 30px;
+      font-size: 20px;
       background-color:rgb(74,170,165);
       Margin-top: 8rem ;
-    
-     
-  }
-   
-    /*---Media Queries --*/
+      }
+/*---Media Queries --*/
 @media (min-width:641px) {
     #namebox {
         width: 75%;
@@ -116,6 +102,5 @@ h3 {
   ul {
       padding-top:20px;
       padding-left:30px
-  }
- 
+    }
 }
