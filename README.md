@@ -13,15 +13,15 @@ The goal of this project was to create a responsive website using Bootstrap, HTM
 
 ### Home Page max width 640px
 
-![Screenshot Home 640](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/Home640.PNG)
+![Screenshot Home 640](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/index640.PNG)
 
 ### Home Page max width 768px
 
-![Screenshot Home 768](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/Home768.PNG)
+![Screenshot Home 768](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/index768.PNG)
 
 ### Contact Page max width 980px
 
-![Home Home 980](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/Home980.PNG)
+![Home Home 980](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/index980.PNG)
 
 ### Contact Page max width 640px
 
