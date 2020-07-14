@@ -6,6 +6,7 @@ body {
     max-width: 980px;
     margin: auto;
     
+    
   }
   
 .footer {
@@ -65,11 +66,18 @@ h3 {
         padding-top: 20px;
     }
 
- section {  
-    border: 1px solid lightgray;
-    background-color: ghostwhite;
-    margin: 30px; 
-    }
+#aboutme {
+    margin: 40px;
+
+}
+#connect {
+    margin:auto;
+}
+#portfolio{
+    margin: 30px;
+}
+
+  
 
 .left {
     float:left;
@@ -109,7 +117,5 @@ h3 {
       padding-top:20px;
       padding-left:30px
   }
-  section {
-      width:100%;
-  }
+ 
 }
