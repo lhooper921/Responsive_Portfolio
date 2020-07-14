@@ -109,4 +109,12 @@ figcaption {
       padding-top:20px;
       padding-left:30px
     }
+  /* Float */
+  .left {
+    float:left;
+    padding: 0 10px 0 0;
+    }
+.right{
+    float:right;
+}
 }
