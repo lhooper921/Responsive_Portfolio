@@ -65,6 +65,9 @@ h3 {
 #portfolio{
     margin: 30px;
     }
+p {
+    text-align: left;
+}
   /* Float */
 .left {
     float:left;
@@ -72,6 +75,9 @@ h3 {
     }
 .right{
     float:right;
+}
+figcaption {
+    text-align: center;
 }
 .btn-primary {
     background-color:rgb(74,170,165) ;
