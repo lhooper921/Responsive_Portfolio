@@ -7,9 +7,18 @@ Portfolio site
 3. [Testing](#testing)
 
 ## Description
-The goal of this project was to create a responsive website using Bootstrap, HTML, and additional CSS. The breakpoints given were 640px, 768px, and 980px to represent various viewport widths. 
+The goal of this project was to create a responsive website using Bootstrap, HTML, and additional CSS. The breakpoints given were 640px, 768px, and 980px to represent various viewport widths. Updated: 08/25/2020
 
 ## Screenshots
+
+### Updated About me Page
+![Screenshot About me](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/updatedAbout.PNG)
+
+### Updated Portfolio Page
+![Screenshot Portfolio](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/updatedPortfolio.PNG)
+
+### Updated Contact Page
+![Screenshot Contact](https://github.com/lhooper921/Responsive_Portfolio/blob/master/Screenshots/updatedContact.PNG)
 
 ### Home Page max width 640px
 
