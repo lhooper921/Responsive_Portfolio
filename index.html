@@ -1,66 +1,66 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Lauren Hooper</title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="Assets/Styles.css">
-  <!-- Font Awesome Icons -->
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="Assets/Styles.css" media="screen">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+
+     <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-  <!-- Content Centering -->
-  <div class="content">
-    <!-- Header -->
-    <header>
-      <div class="clearfix">
-        <div class="row" id="header-row">
-          <div class="col-xs-12 col-sm-6 col-md-4" id="name">
-            <div class="container float-left ml-sm-5" id="namebox">
-              <h1>Lauren Hooper</h1>
-            </div>
-          </div>
-          <!-- Nav Bar -->
-          <div class=" col-xs-12 col-sm-6 col-md-8" id="navigation">
-            <nav class="navbar navbar-expand navbar-light bg-light float-sm-right">
-              <div class="navbar-collapse collapse ">
-                <ul class="navbar-nav m-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span><span
-                        class="border-right border-dark"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span
-                        class="border-right border-dark"></span></a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href="contact.html">Contact </a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Main About me -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="row">
-        <section class="col-md-7  mx-3 mx-md-auto ml-lg-5" id="aboutme" style="background-color:ghostwhite;">
-          <h3 id="About-me">About Me</h3>
-          <hr class="my-4">
-          <div class="image" id="portrait">
-            <img class="left img-fluid m-4" src="Assets/Images/Lauren-Wedding.jpg" width="200" height="200"
-              alt="Portrait of Lauren Hooper">
-          </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Lauren Hooper</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
+
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-12" style="display:inline;">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="Assets/Images/Lauren-Wedding.jpg" alt="" id="about-image" width= "200" height="200" />
           <p>Hi! My name is Lauren Hooper and I am a Full-Stack Web Developer who helps teams coordinate and tackle
             their biggest challenges.
             <br>
@@ -70,43 +70,43 @@
             stressful environment.
             My hobbies include playing guitar, gardening, and spending time with my dog Buddy and my cat Scarlet.
             <br><br>
-            My portfolio is available <a href="portfolio.html">here</a>. Please <a href="contact.html">contact me</a>
+            My portfolio can be found <a href="portfolio.html">here</a>. Please <a href="contact.html">contact me</a>
             with any questions or feedback. I look forward to hearing from you!</p>
-          <figure class="left ml-4">
-            <img class="left img-fluid" src="Assets/Images/buddy.jpg" width="200" height="200" alt="Buddy">
-            <figcaption>Buddy</figcaption>
-          </figure>
-          <figure class="right mr-4">
-            <img class="right img-fluid" src="Assets/Images/scarlet.jpg" width="200" height="200" alt="Scarlet">
-            <figcaption>Scarlet</figcaption>
-          </figure>
-        </section>
-        <!-- Connect -->
-        <Section class="col-md-4   mb-4 mx-sm-0 auto" id="connect" style="background-color:ghostwhite;">
-          <h3>Connect</h3>
-          <hr class="my-4">
-          <a class="btn btn-primary" href="https://www.linkedin.com/in/lauren-hooper-8157072a"><i
-              class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
-          <a class="btn btn-primary" href="https://github.com/lhooper921"><i class="fa fa-github-square fa-4x"
-              aria-hidden="true"></i></a>
-          <a class="btn btn-primary" href="https://twitter.com/LAHooper2019"><i class="fa fa-twitter-square fa-4x"
-              aria-hidden="true"></i></a>
-          <a class="btn btn-primary" href="https://stackexchange.com/users/18901668/scarlet921"><i
-              class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a>
-        </section>
+          </p>
+          <br><br>
+          <h1 style="text-align:center"><a href="/Assets/Images/LHResume2020.pdf" target="_blank">Click here to view my resume</a></h1>
+        </article>
       </div>
-    </div>
-  </div>
-  <!-- Sticky Footer -->
-  <div class="row">
-    <div class="container-fluid">
-      <div class="col-12">
-        <footer class="footer">
-          <p class="text-center">&copy; 2020 Lauren Hooper <img src="Assets/Images/favicon-32x32.png" alt="Lauren Hooper Icon"> </p>
-        </footer>
-      </div>
-    </div>
-  </div>
+    </section>
+    <Section class="col-md-12   mb-4 mx-sm-0 auto" id="connect" style="background-color:ghostwhite; text-align:center">
+      <h3 class="connect-header">Connect</h3>
+      <hr class="my-4">
+      <a class="btn btn-primary"   href="https://www.linkedin.com/in/lauren-hooper-8157072a" target="_blank"><i
+          class="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
+      <a class="btn btn-primary" href="https://github.com/lhooper921" target="_blank"><i class="fa fa-github-square fa-4x"
+          aria-hidden="true"></i></a>
+      <a class="btn btn-primary" href="https://twitter.com/LAHooper2019" target="_blank"><i class="fa fa-twitter-square fa-4x"
+          aria-hidden="true"></i></a>
+      <a class="btn btn-primary" href="https://stackexchange.com/users/18901668/scarlet921" target="_blank"><i
+          class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a>
+    </section>
+  </main>
+  <!-- End of container -->
+
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">&copy; 2020 Lauren Hooper <img src="Assets/Images/favicon-32x32.png"
+                alt="Lauren Hooper Icon"> </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

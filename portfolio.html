@@ -1,109 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Lauren Hooper</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="Assets/Styles.css" media="screen">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="Assets/Styles.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-  <!-- Content Centering -->
-  <div class="content">
-    <!-- Header -->
-    <header>
-      <div class="clearfix">
-        <div class="row" id="header-row">
-          <div class="col-xs-12 col-sm-6 col-md-4" id="name">
-            <div class="container float-left ml-sm-5" id="namebox">
-              <h1>Lauren Hooper</h1>
-            </div>
-          </div>
-          <!-- Nav Bar -->
-          <div class=" col-xs-12 col-sm-6 col-md-8" id="navigation">
-            <nav class="navbar navbar-expand navbar-light bg-light float-sm-right">
-              <div class="navbar-collapse collapse ">
-                <ul class="navbar-nav m-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html"> Home <span class="border-right border-dark"></span></a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span><span
-                        class="border-right border-dark"></span></a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link" href="contact.html">Contact </a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- Portfolio -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="row">
-        <section class="col-sm-11 col-md-12 col-lg-9 my-4 mx-5 mx-sm-auto ml-lg-5" style="background-color: ghostwhite">
-          <h3>Portfolio</h3>
-          <hr class="my-4">
-          <div class="row">
-            <div class="col-sm-4 mx-auto">
-              <div class="card " style="width: 15rem;">
-                <img src="Assets/Images/portfolio-1.jpg" class="card-img-top img-fluid" alt="Colorful Tile">
-                <div class="card-img-overlay">
-                  <p class="card-text">Word Guess</p>
-                </div>
-              </div>
-              <div class="card" style="width: 15rem;">
-                <img src="Assets/Images/portfolio-2.jpg" class="card-img-top img-fluid"
-                  alt="Green foliage with White Flowers">
-                <div class="card-img-overlay px-3">
-                  <p class="card-text">Trivia Game</p>
-                </div>
-              </div>
-              <div class="card" style="width: 15rem;">
-                <img src="Assets/Images/portfolio-3.jpg" class="card-img-top img-fluid"
-                  alt="iPhone with colorful overlay">
-                <div class="card-img-overlay px-3">
-                  <p class="card-text">Rock Paper Scissors</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 mx-auto">
-              <div class="card" style="width: 15rem;">
-                <img src="Assets/Images/portfolio-4.jpg" class="card-img-top img-fluid" alt="Pink Flower">
-                <div class="card-img-overlay px-3">
-                  <p class="card-text">RPG Game</p>
-                </div>
-              </div>
-              <div class="card" style="width: 15rem;">
-                <img src="Assets/Images/portfolio-5.jpg" class="card-img-top img-fluid"
-                  alt="Gothic Building, German Glockenspiel">
-                <div class="card-img-overlay px-3 ">
-                  <p class="card-text">Info Widget</p>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Lauren Hooper</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
+
+  <!-- Start of container -->
+  <div class="container">
+    <main class="row">
+      <div class="col-md-12">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <div class="row ">
+            <div class="container-image">
+              <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 ">
+                <img class="img-fluid port-image" src="/Assets/Images/screenshot3.PNG"
+                  alt="Screenshot of Nature Itinerary Page">
+                <div class="overlay">
+                  <div class="text"><a href="https://christ-ine.github.io/outdoor-itinerary/">Outdoor Itinerary</a>
+                    <p>The goal of this project was to create an application capable of building and saving a plan for
+                      the
+                      day in a given city. The activities returned by the search are "social-distancing" friendly,
+                      focused
+                      on the outdoors. </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-    <!--  Footer -->
-    <div class="row">
-      <div class="container-fluid">
-        <div class="col-12">
-          <footer class="footer">
-            <p class="text-center">&copy; 2020 Lauren Hooper <img src="Assets/Images/favicon-32x32.png" alt="Lauren Hooper Icon"></p>
-          </footer>
+          <div class="row">
+            <div class="container-image">
+              <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2">
+                <img class="img-fluid port-image" src="/Assets/Images/questionPage.PNG"
+                  alt="Screenshot of Quiz question page">
+                <div class="overlay">
+                  <div class="text"><a href="https://lhooper921.github.io/code-quiz-javascript/">Javascript Quiz</a>
+                    <p>Short quiz about fundamental javascript knowledge.This application contains 7 questions regarding
+                      Javascript. When an incorrect answer is selected, the selected button becomes dark red and 10
+                      seconds are deducted from the countdown timer. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+      <div class="row">
+        <div class="container-image">
+          <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2 ">
+            <img class="img-fluid port-image" src="/Assets/Images/screenshotWeather.PNG"
+              alt="Screenshot of weather dashboard page">
+            <div class="overlay">
+              <div class="text"><a href="https://lhooper921.github.io/weatherDashboard/">Weather Dashboard</a>
+                <p>When the user types a city name into the input field and clicks the search button, this app will
+                  generate current temperature, humidity, wind speed, and UV index. Additionally, a 5 day forecast will
+                  display for the requested city. </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <div class="row">
+        <div class="container-image">
+          <div class="col-sm-12 col-md-8 col-lg-8 offset-md-2">
+            <img class="img-fluid port-image" src="/Assets/Images/Screenshot2.PNG"
+              alt="Screenshot of workday scheduler page">
+            <div class="overlay">
+              <div class="text"><a href="https://lhooper921.github.io/WorkdayScheduler/">Workday Scheduler</a>
+                <p>This app contains hours within a typical workday (from 9am to 5pm) and allows the user to save tasks
+                  on a specific hour. Hours are color coded for past(gray) present(red) and future(green). </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 style="text-align:center"><a href="/Assets/Images/LHResume2020.pdf" target="_blank">Click here to view my
+          resume</a></h1>
+      </article>
   </div>
+
+  </main>
+
+  </div>
+
+  <!-- End of container -->
+
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">&copy; 2020 Lauren Hooper <img
+        src="Assets/Images/favicon-32x32.png" alt="Lauren Hooper Icon"> </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </script>
+
 </body>
 
 </html>
